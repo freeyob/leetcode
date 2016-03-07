@@ -1,1 +1,1 @@
-# leetcode
+# just for fun
