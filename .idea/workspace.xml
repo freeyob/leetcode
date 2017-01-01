@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ada2df7f-cd7b-41df-9bd4-9aa4d8ee192a" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LengthOfLastWord.java" afterPath="$PROJECT_DIR$/leetcode/lengthoflastword/LengthOfLastWord.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TwoSum.java" afterPath="$PROJECT_DIR$/leetcode/twosum/TwoSum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ZigZagConversion.java" afterPath="$PROJECT_DIR$/leetcode/zigzagconversion/ZigZagConversion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/sortcolors/Solution.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LengthOfLastWord.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LengthOfLastWord.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/lengthoflastword/LengthOfLastWord.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/sortcolors/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -67,6 +75,7 @@
         <option value="$PROJECT_DIR$/leetcode/twosum/TwoSum.java" />
         <option value="$PROJECT_DIR$/leetcode/zigzagconversion/ZigZagConversion.java" />
         <option value="$PROJECT_DIR$/leetcode/lengthoflastword/LengthOfLastWord.java" />
+        <option value="$PROJECT_DIR$/leetcode/sortcolors/Solution.java" />
       </list>
     </option>
   </component>
@@ -135,7 +144,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lengthoflastword" />
+              <option name="myItemId" value="sortcolors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -154,6 +163,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.sortcolors" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -548,12 +562,12 @@
       <option name="presentableId" value="Default" />
       <updated>1483275906497</updated>
       <workItem from="1483275911480" duration="517000" />
-      <workItem from="1483281589606" duration="289000" />
+      <workItem from="1483281589606" duration="580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="806000" />
+    <option name="totallyTimeSpent" value="1097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -622,6 +636,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/sortcolors/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding />
         </state>
       </provider>
