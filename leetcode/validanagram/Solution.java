@@ -1,6 +1,7 @@
 package leetcode.validanagram;
 
-import java.util.LinkedList;
+
+import java.util.HashMap;
 
 /**
  * Created by cong on 17-1-2.
@@ -10,20 +11,34 @@ public class Solution {
         if(s.length() != t.length()){
             return false;
         }
-        LinkedList set = new LinkedList();
-        for(int i = 0;i < s.length();i++){
-            set.add(new Character(s.charAt(i)));
-        }
-        for(int i = 0;i < t.length();i++){
-            Character e = t.charAt(i);
-            if(set.contains(e)){
-                set.remove(e);
+        HashMap<Character,Integer> set = new HashMap<>();
+        for(int i = 0; i < s.length(); i++){
+            Character e = s.charAt(i);
+            Integer count = set.get(e);
+            if(count == null){
+                set.put(e, new Integer(1));
+            }else{
+                count++;
+                set.put(e,count);
             }
         }
-        return set.size() == 0 ? true:false;
+        for(int j = 0; j < t.length(); j++){
+            Character e = t.charAt(j);
+            Integer count = set.get(e);
+            if(count == null){
+                return false;
+            }else {
+                count--;
+                if(count < 0){
+                   return false;
+                }
+            }
+            set.put(e,count);
+        }
+        return true;
     }
     public static void main(String[] args){
         Solution solution = new Solution();
-        System.out.println(solution.isAnagram("",""));
+        System.out.println(solution.isAnagram("abc","acv"));
     }
 }
