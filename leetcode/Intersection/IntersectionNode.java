@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Intersection;
 
 import java.util.HashSet;
 
