@@ -22,7 +22,7 @@ class Solution {
             if (sum > 9) {
                 resultPos.`val` = sum - 10
                 bit = 1
-            }else{
+            } else {
                 resultPos.`val` = sum
                 bit = 0
             }
@@ -39,6 +39,7 @@ class Solution {
         return result
     }
 }
+
 class ListNode(var `val`: Int) {
     var next: ListNode? = null
 }
