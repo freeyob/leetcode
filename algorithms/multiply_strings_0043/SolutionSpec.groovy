@@ -13,14 +13,14 @@ class SolutionSpec extends Specification {
         '56088'      || '123'    || '456'
         '0'          || '1'      || '0'
         '2469108642' || '111111' || '22222'
-        "0" || "9133" || "0"
+        "0"          || "9133"   || "0"
     }
 
     def "Sum"() {
         expect:
-        sum == new Solution().sum(num1 , num2)
+        sum == new Solution().sum(num1, num2)
         where:
-        sum    || num1  || num2
+        sum     || num1    || num2
         "75488" || "66600" || "8888"
     }
 }
