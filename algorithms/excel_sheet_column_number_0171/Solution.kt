@@ -4,10 +4,10 @@ class Solution {
     fun titleToNumber(columnTitle: String): Int {
         var num = 0
         columnTitle.forEachIndexed { index, c ->
-            num = if (index == columnTitle.lastIndex) {
-                ((c.code - 64) + num)
+            num = if (index == 0) {
+                c.code - 64
             } else {
-                ((c.code - 64) + num) * 26
+                (c.code - 64) + num * 26
             }
         }
         return num
